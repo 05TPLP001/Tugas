@@ -18,10 +18,10 @@ async function fetchData() {
                     <img class="bg-light border rounded-3 w-75 ms-auto me-auto" src="${urlg}" class="card-img-top" alt="${nama}" style="margin:5%; width:auto">
                     <div class="card-body">
                         <h5 class="card-title ">${nama}</h5>
-                        <p class="card-text deskripsi">${nim}</p>
+                        <p class="card-text fw-lighter deskripsi">${nim}</p>
                     </div>
                     <div class="card-footer bg-primary-subtle d-md-flex justify-content-center"> 
-                        <a class="btn btn-lg btn-success d-block btnDetail" target='blank' src="${link}" >My Website</a>
+                        <a class="btn btn-success d-block btnDetail" target='blank' src="${link}" >My Website</a>
                     </div>
                 </div>
             </div>`;
