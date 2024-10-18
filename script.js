@@ -21,17 +21,13 @@ async function fetchData() {
                         <p class="card-text fw-lighter deskripsi">${nim}</p>
                     </div>
                     <div class="card-footer bg-primary-subtle d-md-flex justify-content-center"> 
-                        <a class="btn btn-success d-block btnDetail" target='blank' src="${link}" >My Website</a>
+                        <a class="btn btn-success d-block btnDetail" target='blank' href="${link}" >My Website</a>
                     </div>
                 </div>
             </div>`;
 
         //Input elemen html
         document.getElementById('produk-container').insertAdjacentHTML('beforeend', cardHTML);
-
-        document.querySelector('.btnDetail').addEventListener('click', (e) => {
-            document.querySelector('.btnDetail').href = link;
-        });
     });
 }
 
