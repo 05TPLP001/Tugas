@@ -13,9 +13,9 @@ async function fetchData() {
 
         // Buat elemen HTML
         const cardHTML = `
-            <div class="col mb-md-5 ">
-                <div class="card card bg-secondary text-center text-light kartu">
-                    <img class="bg-light border rounded-3 w-50 mt-md-4 ms-auto me-auto" src="${urlg}" class="card-img-top" alt="${nama}">
+            <div class="col my-3 p-3">
+                <div class="card card bg-secondary text-center text-light pt-3 kartu">
+                    <img class="bg-light border rounded-3 w-50 ms-auto me-auto" src="${urlg}" class="card-img-top" alt="${nama}">
                     <div class="card-body">
                         <h5 class="card-title fs-6">${nama}</h5>
                         <p class="card-text fw-lighter deskripsi">${nim}</p>
